@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Dancing+Script|Pacifico&display=swap');
+body, html {
+  height: 100%;
+
+  /* The image used
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)) ,url("23.jpg");
+  /* Add the blur effect
+  linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.75))
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  /* Full height
+  height: 100%;
+  /* Center and scale the image nicely
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*85, 150, 70, 0.85
+  (rgba(85, 150, 70, 0.85), rgba(4, 71, 90, 0.75))
+  */
+}
+/*
+.shadow {
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+*/
+div, ul{
+  /*font-family: 'Dancing Script', cursive;*/
+  /*font-family: 'Pacifico', cursive;
+  linear-gradient(to bottom right, red, yellow)
+  (-90deg, red, yellow)*/
+  font-family: 'Cinzel', serif;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(-75deg, #8929AD, #436AAC, #43B7B8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.welcome{
+  font-weight: bolder;
+  font-size: 55px;
+  background: -webkit-linear-gradient(-75deg, #8929AD, #436AAC, #43B7B8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  vertical-align: 20%;
+}
+#card{
+  border-radius: 25px;
+  border: 3px solid black;
+  /*-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  /*-moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         10px 10px 10px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  /*box-shadow: 10px 10px;*/
+
+}
